@@ -1,4 +1,13 @@
 # NLP-2026
+## Repository Contents
+* `dev.txt`: Final ensemble predictions for the official Dev Set.
+* `test.txt`: Final ensemble predictions for the official unseen Test Set.
+* `advanced_eda1_syntax.png`: Stage 2 Exploratory Data Analysis (EDA) violin plots comparing the syntactic density (adjectives and pronouns) of PCL versus non-PCL text.
+* `advanced_eda2_tsne.png`: Stage 2 Exploratory Data Analysis (EDA) t-SNE scatter plot visualizing the semantic overlap and severe class imbalance between the positive and negative labels.
+* `BestModel/`: Folder containing the final model code.
+The ipynb notebook containing the code for my model can be found [here](BestModel/Solution.ipynb)
+
+## Model Information
 The system pipeline consists of three main stages: Data Augmentation, Independent Model Training, and Ensemble Voting.
 
 ### 1. Data Augmentation
